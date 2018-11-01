@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+	<head>
+		<link href = "css/stylesRegistration.css" type = "text/css" rel = "stylesheet">
+		<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
+		<script src = "javaScript/validateRegistration.js"></script>
+			<title>Registration, Dried fruits of Turkey</title>
+	</head>
+
+		<body>
+
+			<div id = "header">
+				<div id = "header1">
+					Dried fruits of Turkey
+				</div>
+			</div>
+
+			<div id = "contents">
+
+				<div id = "form1">
+
+					<div id = "formHeader">
+						Registration
+					</div>
+
+					<form name = "Registration" action = "Registration.php" method = "POST" onsubmit = "return validate(this)">
+
+						<p>
+							<label>Name
+								<input class = "input1" type = "text" size="20" maxlength="20" name="name1">
+							</label>
+						</p>
+
+						<div class = "remark">
+						</div>
+
+						<p>
+							<label>Surname
+								<input class = "input1"  type = "text" size="20" maxlength="20" name="surname">
+							</label>
+						</p>
+
+						<div class = "remark">
+						</div>
+
+						<p>
+							<label>Email
+								<input class = "input1"  type = "text" size="20" maxlength="20" name="email">
+							</label>
+						</p>
+
+						<div class = "remark">
+						</div>
+
+						<p>
+							<label>Tel
+								<input class = "input1"  type = "text" size="20" maxlength="20" name="tel">
+							</label>
+						</p>
+
+						<div class = "remark">
+						</div>
+
+						<p>
+							<label>Think of password
+								<input class = "input1"  type = "password" size="20" maxlength="20" name="password">
+							</label>
+						</p>
+
+						<div class = "remark">
+						</div>
+
+							Gender<br><br>
+								<label>
+									Male
+										<input type = "radio" name = "gender" value = "male">
+								</label>
+
+								<label>
+									Female
+										<input type = "radio" name = "gender" value = "female">
+								</label>
+
+						<div class = "remark">
+						</div>
+
+					
+							<input id = "doneButton" type = "submit" name =  "submit2" value = "continue"  ><br>
+
+							<a href= "index.php">
+   							<input id= "cancellationButton" type="button" name = "cancellation" value = "cancel" >			
+							</a> 
+
+							<input id= "resetButton" type = "reset" name =  "reset2" value = "reset";>
+					
+	
+					</form>
+
+				</div>
+
+				<div id = "contacts">
+					Dried fruits of turkey<br>
+					Address: Turkey, Istambul, 20<br>
+					Tel: +79566554278<br>
+					Email: fruitsofturkey@gmail.com 				
+				</div>
+
+			</div>
+
+		</body>
+
+</html>

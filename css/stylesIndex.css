@@ -1,0 +1,9 @@
+@import url('mainPart.css');
+
+#image1
+{
+	position: relative;
+  float: right;
+	margin:15px;
+	border: 2px solid orange;  
+}

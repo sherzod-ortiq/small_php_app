@@ -1,0 +1,18 @@
+@import url('mainPart1.css');
+
+#image1wrapper
+{
+	background-color: brown;
+  float: right;
+	border: 2px solid orange;
+	margin: 15px;
+}
+
+#image2wrapper
+{
+	background-color: brown;
+  float: left;
+	border: 2px solid orange;
+	margin:2px;
+}
+
